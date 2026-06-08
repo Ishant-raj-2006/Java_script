@@ -19,3 +19,9 @@ let y = {
     IsMarried: false
 };
 console.log(y);
+// We can print particular element in this object 
+console.log(x.age)
+
+// Edit the particular element 
+y['age'] = 50048;
+console.log(y.age);
